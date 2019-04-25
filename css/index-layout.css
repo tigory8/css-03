@@ -1,0 +1,16 @@
+main {
+    display: flex;
+}
+
+main aside {
+    min-width: 40%;
+}
+
+@media screen and (max-width: 720px) {
+    header {
+        height: 200px;        
+    }
+    header h1 {
+        font-size: 5rem;
+    }
+}
